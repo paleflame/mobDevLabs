@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State public var userInput: String = ""
-    @State public var output: String = "I repeat everything you write!"
+    @State private var userInput: String = ""
+    @State private var output: String = "I repeat everything you write!"
     
     var body: some View {
         VStack {
